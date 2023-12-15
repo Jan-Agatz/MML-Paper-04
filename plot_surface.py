@@ -59,8 +59,6 @@ def setup_surface_file(args, surf_file, dir_file):
 
         f.close()
 
-    print(file_already_exists)
-
     if file_already_exists:
         return
 
